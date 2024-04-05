@@ -1,0 +1,29 @@
+// input{
+//     // margin: 0 auto;
+//     // display: block;
+//     // border: 1px solid blue;
+//     // height: 30px;
+//     // border-radius: 5px;
+//     // font-size: 20px;
+// }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    border: solid;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.names{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+
+    span {
+        border: solid;
+    }
+}
+
